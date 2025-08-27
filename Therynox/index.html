@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Therynox</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="image-fixes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="carousel.js" defer></script>
+    <script src="navbar.js" defer></script>
+    <script src="scroll-animations.js" defer></script>
+    <script src="contact-form.js" defer></script>
+</head>
+<body>
+    <div class="main-container">
+        <header id="nav-container">
+            <nav id="nav-bar">
+                <div class="logo">
+                    <a href="#" class="text-xl font-bold text-white flex items-center">
+                        <img src="Asset 5@4x.png" alt="Logo image" style="max-width: 100%; height: auto;">
+                    </a>
+                </div>
+                <button class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul>
+                    <li><a href="#hero" class="active">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#ui-designs">Portfolio</a></li>
+                    <li><a href="#about-us-section">About</a></li>
+                    <li><a href="#contact">"Let's talk"</a></li>
+                </ul>
+                <a href="https://wa.me/8287445741" class="contact-button" target="_blank">Contact Us</a>
+            </nav>
+        </header>
+
+        <section id="hero" class="hero-section">
+          <div class="max-w-7xl mx-auto hero-container-padding px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h1 class="text-5xl lg:text-7xl font-bold animate-on-scroll" data-animation="fade-in-up">
+                    We develop
+                  <span class="gradient-text">Amazing<br> websites</span> 
+                  for your business.
+                </h1>
+                <p class="text-xl text-gray-300 mb-6 leading-relaxed animate-on-scroll" data-animation="fade-in-up" data-stagger="1">
+                    We help businesses create stunning websites and establish a powerful online presence. Book a free consultation with us to discuss your project and get a quote.
+                </p>
+                <div class="flex flex-row gap-4 animate-on-scroll" data-animation="fade-in-up" data-stagger="2">
+                  <a href="#contact" class="button button-lg gradient-bg hover:opacity-90 pulse-glow">
+                    Get Started Today <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 w-5 h-5"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  </a>
+                  <a href="https://wa.me/8287445741" class="button button-lg whatsapp-hero-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    <span class="whatsapp-btn-text" style="display: flex; flex-direction: column; line-height: 1.1; align-items: flex-start;">
+                      Message us on<br><strong>Whatsapp</strong>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              
+              <div class="relative animate-on-scroll" data-animation="fade-in-right">
+                <div class="floating-animation">
+                  <img  
+                    class="rounded-2xl shadow-2xl w-full" 
+                    alt="Modern web development workspace with multiple screens showing beautiful websites"
+                    src="hero image .jpeg" 
+                  />
+                </div>
+                <div class="absolute -bottom-6 -right-6 glass-effect rounded-xl p-4 animate-on-scroll" data-animation="scale-in" data-stagger="1">
+                  <div class="flex items-center space-x-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star w-5 h-5 text-yellow-400"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    <span class="text-sm font-semibold">5.0 Rating</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="services">
+            <div class="services-header animate-on-scroll" data-animation="fade-in-up">
+                <h2>Our <span class="gradient-text">Services</span></h2>
+                <p>We offer comprehensive web solutions to help your business thrive in the digital world</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service Card 1: Custom Website Development -->
+                <div class="service-card glass-effect animate-on-scroll" data-animation="fade-in-up" data-stagger="1">
+                    <div class="service-icon-wrapper gradient-bg">
+                        <div class="service-icon globe-icon"></div>
+                    </div>
+                    <h3>Custom Website Development</h3>
+                    <p>Tailored websites built from scratch to match your unique brand and business needs.</p>
+                    <ul class="service-features">
+                        <li><div class="check-circle"></div>Responsive Design</li>
+                        <li><div class="check-circle"></div>SEO Optimized</li>
+                        <li><div class="check-circle"></div>Fast Loading</li>
+                    </ul>
+                </div>
+
+                <!-- Service Card 2: Mobile-First Design -->
+                <div class="service-card glass-effect animate-on-scroll" data-animation="fade-in-up" data-stagger="2">
+                    <div class="service-icon-wrapper gradient-bg">
+                        <div class="service-icon smartphone-icon"></div>
+                    </div>
+                    <h3>Mobile-First Design</h3>
+                    <p>Beautiful, responsive designs that look perfect on all devices and screen sizes.</p>
+                    <ul class="service-features">
+                        <li><div class="check-circle"></div>Mobile Optimized</li>
+                        <li><div class="check-circle"></div>Touch Friendly</li>
+                        <li><div class="check-circle"></div>Cross-Platform</li>
+                    </ul>
+                </div>
+
+                <!-- Service Card 3: Performance Optimization -->
+                <div class="service-card glass-effect animate-on-scroll" data-animation="fade-in-up" data-stagger="3">
+                    <div class="service-icon-wrapper gradient-bg">
+                        <div class="service-icon zap-icon"></div>
+                    </div>
+                    <h3>Performance Optimization</h3>
+                    <p>Lightning-fast websites that provide exceptional user experience and better rankings.</p>
+                    <ul class="service-features">
+                        <li><div class="check-circle"></div>Speed Optimization</li>
+                        <li><div class="check-circle"></div>Core Web Vitals</li>
+                        <li><div class="check-circle"></div>Performance Monitoring</li>
+                    </ul>
+                </div>
+
+                <!-- Service Card 4: UI/UX Design -->
+                <div class="service-card glass-effect animate-on-scroll" data-animation="fade-in-up" data-stagger="4">
+                    <div class="service-icon-wrapper gradient-bg">
+                        <div class="service-icon palette-icon"></div>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Stunning visual designs that captivate users and drive conversions.</p>
+                    <ul class="service-features">
+                        <li><div class="check-circle"></div>User Research</li>
+                        <li><div class="check-circle"></div>Wireframing</li>
+                        <li><div class="check-circle"></div>Visual Design</li>
+                    </ul>
+                </div>
+
+                <!-- Service Card 5: Launch & Deployment -->
+                <div class="service-card glass-effect animate-on-scroll" data-animation="fade-in-up" data-stagger="5">
+                    <div class="service-icon-wrapper gradient-bg">
+                        <div class="service-icon rocket-icon"></div>
+                    </div>
+                    <h3>Launch & Deployment</h3>
+                    <p>Seamless website launches with ongoing support and maintenance.</p>
+                    <ul class="service-features">
+                        <li><div class="check-circle"></div>Domain Setup</li>
+                        <li><div class="check-circle"></div>Hosting</li>
+                        <li><div class="check-circle"></div>SSL Certificates</li>
+                    </ul>
+                </div>
+
+                <!-- Service Card 6: Digital Marketing -->
+                <div class="service-card glass-effect animate-on-scroll" data-animation="fade-in-up" data-stagger="6">
+                    <div class="service-icon-wrapper gradient-bg">
+                        <div class="service-icon trending-up-icon"></div>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>Comprehensive marketing strategies to boost your online visibility and growth.</p>
+                    <ul class="service-features">
+                        <li><div class="check-circle"></div>SEO Strategy</li>
+                        <li><div class="check-circle"></div>Content Marketing</li>
+                        <li><div class="check-circle"></div>Analytics</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="process">
+            <div class="process-header animate-on-scroll" data-animation="fade-in-up">
+                <p class="process-label">Process</p>
+            </div>
+            <div class="process-steps-container">
+                <h2 class="process-title animate-on-scroll" data-animation="fade-in-up" data-stagger="1">Our Process, Your Progress</h2>
+                <p class="process-subtitle animate-on-scroll" data-animation="fade-in-up" data-stagger="2">From first convo to final launch, we make the whole thing easy, stress-free, and actually fun.</p>
+                <div class="process-steps-row">
+                    <div class="process-step animate-on-scroll" data-animation="fade-in-left" data-stagger="1">
+                        <div class="process-left-content">
+                            <div class="process-step-number">01</div>
+                            <div class="process-step-title">Let's Talk</div>
+                        </div>
+                        <div class="process-right-content">
+                            <div class="process-step-dot"></div>
+                            <div class="process-step-desc">We kick things off with a quick chat to understand your brand, goals, and what you're looking for.</div>
+                        </div>
+                    </div>
+                    <div class="process-step animate-on-scroll" data-animation="fade-in-right" data-stagger="2">
+                        <div class="process-left-content">
+                            <div class="process-step-number">02</div>
+                            <div class="process-step-title">Design That Clicks</div>
+                        </div>
+                        <div class="process-right-content">
+                            <div class="process-step-dot"></div>
+                            <div class="process-step-desc">Once we're aligned, we sketch out designs that are clean, modern, and built to impress.</div>
+                        </div>
+                    </div>
+                    <div class="process-step animate-on-scroll" data-animation="fade-in-left" data-stagger="3">
+                        <div class="process-left-content">
+                            <div class="process-step-number">03</div>
+                            <div class="process-step-title">Build & Develop</div>
+                        </div>
+                        <div class="process-right-content">
+                            <div class="process-step-dot"></div>
+                            <div class="process-step-desc">Our devs bring those designs to life—fast, functional, and fully responsive on all devices.</div>
+                        </div>
+                    </div>
+                    <div class="process-step animate-on-scroll" data-animation="fade-in-right" data-stagger="4">
+                        <div class="process-left-content">
+                            <div class="process-step-number">04</div>
+                            <div class="process-step-title">Launch Time</div>
+                        </div>
+                        <div class="process-right-content">
+                            <div class="process-step-dot"></div>
+                            <div class="process-step-desc">Final checks, bug fixes, and boom—you're live and ready to shine.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="testimonial">
+            <div class="te-container">
+                WORK IN PROGRESS
+            </div>
+        </section> -->
+
+        <section id="ui-designs">
+            <div class="designs-headings animate-on-scroll" data-animation="fade-in-up">
+                <h3>UI <span>Designs</span></h3>
+                <h2>Our Creative Design Portfolio</h2>
+                <p>Explore our collection of innovative and user-friendly interface designs that bring ideas to life.</p>
+            </div>
+            <div class="designs-carousel">
+                <div class="carousel-container">
+                    <button class="carousel-arrow carousel-arrow-left">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="carousel-track" style="cursor: grab;">
+                        <!-- Clone of last two images -->
+                        <div class="carousel-slide outer">
+                            <div class="mobile-frame">
+                                <img src="UI designs/4.jpg" alt="UI Design 4 Clone">
+                            </div>
+                        </div>
+                        <div class="carousel-slide outer">
+                            <div class="mobile-frame">
+                                <img src="UI designs/5.jpg" alt="UI Design 5 Clone">
+                            </div>
+                        </div>
+                        <!-- Original images -->
+                        <div class="carousel-slide active">
+                            <div class="mobile-frame">
+                                <img src="UI designs\1.jpg" alt="UI Design 1">
+                            </div>
+                        </div>
+                        <div class="carousel-slide adjacent">
+                            <div class="mobile-frame">
+                                <img src="UI designs/2.jpg" alt="UI Design 2">
+                            </div>
+                        </div>
+                        <div class="carousel-slide outer">
+                            <div class="mobile-frame">
+                                <img src="UI designs/3.jpg" alt="UI Design 3">
+                            </div>
+                        </div>
+                        <div class="carousel-slide outer">
+                            <div class="mobile-frame">
+                                <img src="UI designs/4.jpg" alt="UI Design 4">
+                            </div>
+                        </div>
+                        <div class="carousel-slide adjacent">
+                            <div class="mobile-frame">
+                                <img src="UI designs/5.jpg" alt="UI Design 5">
+                            </div>
+                        </div>
+                        <!-- Clone of first two images -->
+                        <div class="carousel-slide outer">
+                            <div class="mobile-frame">
+                                <img src="UI designs/1.jpg">
+                            </div>
+                        </div>
+                        <div class="carousel-slide outer">
+                            <div class="mobile-frame">
+                                <img src="UI designs/2.jpg" alt="UI Design 2 Clone">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-arrow carousel-arrow-right">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div class="carousel-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-us-section" class="py-20 bg-slate-800/50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="about-content-left animate-on-scroll" data-animation="fade-in-left">
+                        <div class="services-header animate-on-scroll" data-animation="fade-in-up">
+                            <h2>About <span class="gradient-text">Us</span></h2>
+                            <p>We are a passionate team of web developers and designers dedicated to creating exceptional websites. With a focus on quality and client satisfaction, we deliver solutions that drive results and elevate your brand.</p>
+                        </div>
+                        <div class="grid grid-cols-2 gap-6 mb-8">
+                            <div class="flex items-center space-x-3 animate-on-scroll" data-animation="scale-in" data-stagger="1">
+                                <div class="gradient-bg w-12 h-12 rounded-lg flex items-center justify-center">
+                                    <i class="fas fa-layer-group text-white w-6 h-6"></i>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-2xl">50+</p>
+                                    <p class="text-gray-300">Projects Done</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3 animate-on-scroll" data-animation="scale-in" data-stagger="2">
+                                <div class="gradient-bg w-12 h-12 rounded-lg flex items-center justify-center">
+                                    <i class="fas fa-smile text-white w-6 h-6"></i>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-2xl">100%</p>
+                                    <p class="text-gray-300">Happy Clients</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3 animate-on-scroll" data-animation="scale-in" data-stagger="3">
+                                <div class="gradient-bg w-12 h-12 rounded-lg flex items-center justify-center">
+                                    <i class="fas fa-rocket text-white w-6 h-6"></i>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-2xl">Fast</p>
+                                    <p class="text-gray-300">Delivery</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-3 animate-on-scroll" data-animation="scale-in" data-stagger="4">
+                                <div class="gradient-bg w-12 h-12 rounded-lg flex items-center justify-center">
+                                    <i class="fas fa-headset text-white w-6 h-6"></i>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-2xl">24/7</p>
+                                    <p class="text-gray-300">Support</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#contact" class="button button-lg gradient-bg hover:opacity-90 animate-on-scroll" data-animation="fade-in-up" data-stagger="3">
+                            Start Your Project <i class="fas fa-arrow-right ml-2 w-5 h-5"></i>
+                        </a>
+                    </div>
+
+                    <div class="animate-on-scroll" data-animation="fade-in-right">
+                        <img 
+                            class="rounded-2xl shadow-2xl w-full" 
+                            alt="A team of creative professionals working together on a web design project" 
+                            src="About section image.jpeg"
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="contact-container">
+                <div class="contact-header">
+                    <h2>Get in <span class="gradient-text">Touch</span></h2>
+                    <p>Ready to start your project? Fill out the form below and we'll get back to you within 24 hours.</p>
+                </div>
+
+                <div class="contact-content">
+                    <!-- Contact Information -->
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <h3>Contact Information</h3>
+                            <div class="info-items">
+                                <div class="info-item">
+                                    <div class="info-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="info-text">
+                                        <p class="info-label">Email Us</p>
+                                        <p class="info-value">therynox28@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <div class="info-icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="info-text">
+                                        <p class="info-label">Call Us</p>
+                                        <p class="info-value">+91 8287445741</p>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <div class="info-icon">
+                                        <i class="fab fa-instagram"></i>
+                                    </div>
+                                    <div class="info-text">
+                                        <p class="info-label">Instagram</p>
+                                        <p class="info-value"><a href="https://www.instagram.com/therynox.co" target="_blank" style="color: #fff; text-decoration: underline;">@therynox.co</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form">
+                        <form id="contactForm" method="POST">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Full Name</label>
+                                    <input type="text" id="name" name="name" placeholder="John Doe" maxlength="50" pattern="[a-zA-Z\s\-'\.]+" title="Only letters, spaces, hyphens, apostrophes, and periods allowed" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" placeholder="hello@example.com" maxlength="100" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000" maxlength="20" pattern="[\+]?[0-9\s\-\(\)]+" title="Enter a valid phone number (numbers, spaces, hyphens, parentheses, and + sign only)" oninput="this.value = this.value.replace(/[^0-9\s\-\(\)\+]/g, '')">
+                            </div>
+                            <div class="form-group">
+                                <label for="project">Project Type</label>
+                                <select id="project" name="project_type" required>
+                                    <option value="">Select a project type</option>
+                                    <option value="web-development">Web Development</option>
+                                    <option value="business-service">Business/Service Website</option>
+                                    <option value="ecommerce">E-commerce</option>
+                                    <option value="ui-ux">UI/UX Design</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Project Details</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Tell us about your project requirements, timeline, and any specific features you need..." maxlength="1000" title="Please provide information about your project (up to 1000 characters)" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn" id="submitBtn">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                    </div>
+                    <p>Your trusted partner in web development solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#ui-designs">Portfolio</a></li>
+                        <li><a href="#about-us-section">About</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/therynox.co" target="_blank" style="color: #fff; text-decoration: underline;">@therynox.co</a></li>
+                        <li><i class="fas fa-phone"></i>+91 8287445741</li>
+                        <li><i class="fas fa-envelope"></i>therynox28@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/therynox.co"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 therynox.com, All rights reserved.</p>
+            </div>
+        </footer>
+
+        <a href="https://wa.me/8287445741" class="fixed-whatsapp-btn" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+</body>
+</html>
